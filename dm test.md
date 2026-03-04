@@ -15,23 +15,23 @@ $$
 \end{align}
 $$
 4. Докажем, что $\forall q_{i}\in Q \exists q^{i}\in Q'$
-$(f_{j}^{q_{i}} \equiv f_{T}^{q^{j}})$
+$(f_{j}^{q_{i}} \equiv f_{\mathfrak{T}}^{q^{j}})$
 $$
 \begin{align}
 
 q_{i}\in Q_{j} \\
-f_{\mathfrak{a}}^{q_{i}}\equiv f_{\mathfrak{a}}^{q_{n(S)}} = f_{T}^{q^{j}}
+f_{\mathfrak{a}}^{q_{i}}\equiv f_{\mathfrak{a}}^{q_{n(S)}} = f_{\mathfrak{T}}^{q^{j}}
 \end{align}
 $$
-Значит, автоматы $\mathfrak{a}$ и $T$ - эквивалентны
-5. Покажем, что $T$ - минимальный
+Значит, автоматы $\mathfrak{a}$ и $\mathfrak{T}$ - эквивалентны
+5. Покажем, что $\mathfrak{T}$ - минимальный
 пусть $q^{i},q^{j}\in Q'(i\neq j)$
 $f_{g}^{q} \equiv f_{T}^{q}$
 $$
 \begin{align}
-f_{T}^{q^{i}} = &f_{\mathfrak{a}}^{f_{n(i)}}\in Q_{i} \\
+f_{\mathfrak{T}}^{q^{i}} = &f_{\mathfrak{a}}^{f_{n(i)}}\in Q_{i} \\
 &\neq \\
-f_{T}^{q^{j}} = &f_{\mathfrak{a}}^{q_{n(j)}} \in Q_{j} \\
+f_{\mathfrak{T}}^{q^{j}} = &f_{\mathfrak{a}}^{q_{n(j)}} \in Q_{j} \\
 \end{align}
 Q_{i} \neq Q_{j}
 $$
